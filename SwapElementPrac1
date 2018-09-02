@@ -1,0 +1,32 @@
+# Day10Works
+package SwapElement;
+
+public class SwapElement1 {
+    public static void main(String[] args) {
+        String st1 = "A";
+        String st2 = "B";
+        String st3 = "C";
+        String temp ;
+        System.out.println("before swapping");
+        System.out.println("SlNo 1 : " + st1);
+        System.out.println("SlNo 2 : " + st2);
+        System.out.println("SlNo 3 : " + st3);
+        temp = st1;
+        st1 = st3;
+        st3 = temp;
+        st2 = st2;
+        System.out.println("after swapping");
+        System.out.println("SlNo 1 : " + st1);
+        System.out.println("SlNo 2 : " + st2);
+        System.out.println("SlNo 3 : " + st3);
+    }
+} 
+before swapping
+SlNo 1 : A
+SlNo 2 : B
+SlNo 3 : C
+after swapping
+SlNo 1 : C
+SlNo 2 : B
+SlNo 3 : A
+
